@@ -1,0 +1,33 @@
+.containerbelike{
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+}
+body{
+    background-color: rgb(109, 0, 182);
+}
+.carda{
+    width: 33.3333%;
+background-color: rgb(210, 0, 70);
+text-align: center;
+margin-left: 5px;
+color: white;
+font-weight: 600;
+}
+.carda p{
+    font-size: 18px;
+}
+.carda img{
+width: 50%;
+height: 25%;
+object-fit: contain;
+}
+@media screen and (max-width: 593px) {
+.containerbelike{
+    display: block;
+}
+.carda{
+    width: 100%;
+    margin-left: 0px;
+}
+}

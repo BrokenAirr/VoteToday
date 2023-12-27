@@ -1,0 +1,29 @@
+.containerr{
+    padding-top: 15px;
+    width: 100%;
+}
+#Posts{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Carde{
+    width: 33%;
+    background-color: rgba(152,1,250);
+    color: white;
+    text-align: center;
+    height: 500px;
+    margin-left: 5px;
+    box-shadow: 3px 3px rgb(68, 68, 68);
+}
+.Carde img{
+width: 100%;
+height: 50%;
+object-fit: contain;
+}
+.agrees{
+    color: rgb(68, 189, 68);
+}
+.disagrees{
+    color: rgb(255, 94, 94);
+}

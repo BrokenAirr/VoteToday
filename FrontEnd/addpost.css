@@ -1,0 +1,24 @@
+.containar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.carl{
+    width: 50%;
+    text-align: center;
+    border-color: black;
+    border-width: 3px;
+    border-style: dashed;
+    box-shadow: 10px 10px gray;
+}
+.carl input{
+width: 100%;
+height: 40px;
+color: rgba(152,1,250,1);
+}
+.carl img{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
